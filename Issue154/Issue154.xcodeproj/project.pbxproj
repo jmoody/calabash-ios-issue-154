@@ -299,17 +299,11 @@
 		F523D44117C1985900506621 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(inherited)",
-					"\"$(SRCROOT)/../vendor\"",
-				);
+				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Issue154/Issue154-Prefix.pch";
 				INFOPLIST_FILE = "Issue154/Issue154-Info.plist";
-				LIBRARY_SEARCH_PATHS = (
-					"$(inherited)",
-					"\"$(SRCROOT)/../vendor/TestFlightSDK1\"",
-				);
+				LIBRARY_SEARCH_PATHS = "$(inherited)";
 				OTHER_LDFLAGS = (
 					"-force_load",
 					/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk/usr/lib/libz.dylib,
@@ -322,17 +316,11 @@
 		F523D44217C1985900506621 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(inherited)",
-					"\"$(SRCROOT)/../vendor\"",
-				);
+				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Issue154/Issue154-Prefix.pch";
 				INFOPLIST_FILE = "Issue154/Issue154-Info.plist";
-				LIBRARY_SEARCH_PATHS = (
-					"$(inherited)",
-					"\"$(SRCROOT)/../vendor/TestFlightSDK1\"",
-				);
+				LIBRARY_SEARCH_PATHS = "$(inherited)";
 				OTHER_LDFLAGS = (
 					"-force_load",
 					/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk/usr/lib/libz.dylib,
